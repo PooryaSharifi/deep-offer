@@ -27,4 +27,4 @@ here we know this consumption to offer to our neural model to predict next produ
 <br/><br/><br/>
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/offer_gen.png?raw=true)
 <br/><br/>
-salam salam
+we use tensorflow to create and fit the model. and wrap it up with sanic server which is used async inplace of threads and is compatible with tensorflow and mongoDB
