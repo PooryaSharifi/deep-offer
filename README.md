@@ -22,7 +22,7 @@ here we know that:
   - each product has a (Repetitive | Popular) name
   - each product has a time which seen or bought by a casual user
   - dar oon lahze cheghad offer dashte
-  - use a text generation to predict next things that probably got bought
+  - use a text generation to predict next things that probably got bought \
 so remember to consider all this consumption based on each specific problem
 
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/offer_gen.png?raw=true)
