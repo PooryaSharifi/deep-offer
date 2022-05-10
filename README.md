@@ -1,5 +1,5 @@
-# deep-offer
-Seasonal aware recommendation system
+# deep-offer # Seasonal aware recommendation system
+
 
 ## why Hybrid (collaborative + content based) recommendation failed
 ### first it is not all about content
