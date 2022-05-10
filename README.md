@@ -12,3 +12,4 @@ also seasonal needs of users is imporant to consider for perfect recommendation 
 
 ## Solution
 ### Timeseries prediction using something like transformers: [attention is all you need](https://arxiv.org/abs/1706.03762) which offers good results in varies of problem categories.
+![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/text_gen.jpg?raw=true)
