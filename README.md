@@ -13,7 +13,7 @@ also seasonal needs of users is imporant to consider for perfect recommendation 
 ## Solution
 ### why not using deep learning models to predict next order of each user
 the use of recurrent neural nets in text generation is a well known practice. but we can suppose each word as a product related to a user \
-&nbsp;&nbsp;
+&nbsp;&nbsp;<br/><br/>
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/text_gen.png?raw=true)
 &nbsp;&nbsp;
 then timeseries prediction using something like transformers: [attention is all you need](https://arxiv.org/abs/1706.03762) which offers good results in varies of problem categories. so remember to consider all this consumption based on each specific problem \
