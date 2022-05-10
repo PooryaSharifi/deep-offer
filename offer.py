@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+from pymongo import MongoClient
 L, l2 = tf.keras.layers, tf.keras.regularizers.l2
 seq_size, pr_magnitude = 64, 1000
 
@@ -47,3 +48,14 @@ def fit(X, y):
 
 def recommend(x):
     pass
+
+if __name__ == '__main__':
+    orders = MongoClient(app.config['MOTOR_URI']).get_database()['orders'].find().sort(('date', '1'))
+    users = {}
+    for o in orders:
+        if o['user'] not in users:
+            users[o['user']] = []
+        users[o['user']].append(o)
+    # make sequences then
+    # prep them
+    # fit
