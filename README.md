@@ -15,9 +15,13 @@ also seasonal needs of users is imporant to consider for perfect recommendation 
 the use of recurrent neural nets in text generation is a well known practice. but we can suppose each word as a product related to a user \
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/text_gen.png?raw=true)
 then timeseries prediction using something like transformers: [attention is all you need](https://arxiv.org/abs/1706.03762) which offers good results in varies of problem categories. \
-here we know that: \
-  - oona ke check karde. oona ke kharide. \
-  - each product has a brand. \
-
+here we know that:
+  - oona ke check karde. oona ke kharide.
+  - each product has a brand.
+  - each product has a category
+  - each product has a (Repetitive | Popular) name
+  - each product has a time which seen or bought by a casual user
+  - dar oon lahze cheghad offer dashte
+  - use a text generation to predict next things that probably got bought
 
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/offer_gen.png?raw=true)
