@@ -11,5 +11,8 @@ from the point of heyek [The Use Of Knowledge In Society, 1945](https://www.cato
 also seasonal needs of users is imporant to consider for perfect recommendation system
 
 ## Solution
-### Timeseries prediction using something like transformers: [attention is all you need](https://arxiv.org/abs/1706.03762) which offers good results in varies of problem categories.
+### why not using deep learning models to predict next order of each user
+the use of recurrent neural nets in text generation is a well known practice. but we can suppose each word as a product related to a user
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/text_gen.png?raw=true)
+then timeseries prediction using something like transformers: [attention is all you need](https://arxiv.org/abs/1706.03762) which offers good results in varies of problem categories.
+![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/order_gen.png?raw=true)
