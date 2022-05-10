@@ -1,5 +1,5 @@
 # deep-offer
-Seasonal aware recommendation system
+Seasonal aware recommendation system \
 each offer that shows to a user of a system e.g e-commerces is costly for him, it makes bias in his mind and takes .2 seconds of his time on average so a couple of percents in increase of recommendation precision is worthy.
 
 ## why Hybrid (collaborative + content based) recommendation failed
