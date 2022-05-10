@@ -8,7 +8,7 @@ suppose we have two use in our platform (A, B), that they share nearly same prop
 
 ### man at the spot dilemma
 from the point of heyek [The Use Of Knowledge In Society, 1945](https://www.cato.org/sites/cato.org/files/articles/hayek-use-knowledge-society.pdf) market mechanism (offers and gifts in e-commerce websites), and realtime inputs which users are gonna see. are important to their product selections to order. so history of events which user is expreriensing is important. \
-also seasonal needs of users is imporant to consider for perfect recommendation system
+also seasonal needs of users is imporant to consider for perfect recommendation system. ready for a good solution for a welly defined problem!
 
 ## Solution
 ### why not using deep learning models to predict next order of each user
@@ -16,5 +16,8 @@ the use of recurrent neural nets in text generation is a well known practice. bu
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/text_gen.png?raw=true)
 then timeseries prediction using something like transformers: [attention is all you need](https://arxiv.org/abs/1706.03762) which offers good results in varies of problem categories. \
 here we know that: \
+  - oona ke check karde. oona ke kharide. \
+  - each product has a brand. \
+
 
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/offer_gen.png?raw=true)
