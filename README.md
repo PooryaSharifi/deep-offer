@@ -24,6 +24,7 @@ here we know this consumption to offer to our neural model to predict next produ
   - each of them has a (Repetitive | Popular) name
   - each of them has a time which seen or bought by a casual user
   - each of them probably has an offer for each user on the time of showing to him
-<br/><br/>
+<br/><br/><br/>
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/offer_gen.png?raw=true)
 <br/><br/>
+salam salam
