@@ -13,9 +13,9 @@ also seasonal needs of users is imporant to consider for perfect recommendation 
 ## Solution
 ### why not using deep learning models to predict next order of each user
 the use of recurrent neural nets in text generation is a well known practice. but we can suppose each word as a product related to a user \
-&nbsp;
+&nbsp;&nbsp;
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/text_gen.png?raw=true)
-&nbsp;
+&nbsp;&nbsp;
 then timeseries prediction using something like transformers: [attention is all you need](https://arxiv.org/abs/1706.03762) which offers good results in varies of problem categories. so remember to consider all this consumption based on each specific problem \
 here we know this consumption to offer to our neural model to predict next products that probably gonna bought by specific user \
   - the products which a user seen and focused on it or he ordered them
@@ -24,6 +24,6 @@ here we know this consumption to offer to our neural model to predict next produ
   - each of them has a (Repetitive | Popular) name
   - each of them has a time which seen or bought by a casual user
   - each of them probably has an offer for each user on the time of showing to him
-&nbsp;
+&nbsp;&nbsp;
 ![alt text](https://github.com/PooryaSharifi/deep-offer/blob/main/offer_gen.png?raw=true)
-&nbsp;
+&nbsp;&nbsp;
